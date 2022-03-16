@@ -67,5 +67,3 @@ All donations received in digital form must be scanned for viruses. Content crea
     * If we have legal rights to the collection, dispose of the media in the manner indicated in the deed of gift. Typically it will be securely destroyed. Occasionally, a donor may request to have unwanted digital media returned to them.
 
     * If we do not have legal rights to the collection, retain the media until we do have the right to dispose of them. Store separately from media where we are retaining files and mark clearly as awaiting destruction after receiving a deed of gift.
-
-    * Record a brief summary of what is not being kept in the [Archivists' Toolkit accession record](./accession-record_archivists-toolkit.md). This information should be recorded in the "Disposition Note" field.
