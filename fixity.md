@@ -1,6 +1,6 @@
 # Fixity
 
-*Copied from the [2019 workflow](https://github.com/uga-libraries/born-digital-accessioning) with minor changes.*
+*Copied from the [2019 workflow](https://github.com/uga-libraries/born-digital-accessioning/tree/main/legacy-docs-2017-2019) with minor changes.*
 
 All departments generate some kind of manifest of files in an accession, which at a minimum includes file paths and fixity information. It can also include file dates, size, and formats.
 
