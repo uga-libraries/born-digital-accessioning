@@ -1,6 +1,6 @@
 # Preservation Documentation
 
-*Copied from the [2019 workflow](https://github.com/uga-libraries/born-digital-accessioning) with minor updates.*
+*Copied from the [2019 workflow](https://github.com/uga-libraries/born-digital-accessioning/tree/main/legacy-docs-2017-2019) with minor updates.*
 
 Hargrett and Russell A&D uses a preservation log to record every action taken on a group of files, organized by accession and by each piece of removable media/file transfer. The log includes the action taken, tool used (if applicable), results of the action, and who performed the action.
 
