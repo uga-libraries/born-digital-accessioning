@@ -1,6 +1,6 @@
 # Digital Media Identifiers (DMID)
 
-*Copied from the [2019 workflow](https://github.com/uga-libraries/born-digital-accessioning) with minor changes.*
+*Copied from the [2019 workflow](https://github.com/uga-libraries/born-digital-accessioning/tree/main/legacy-docs-2017-2019) with minor changes.*
 
 Each piece of transfer media or group of digital files transferred together is assigned a unique identifier. This identifier will be used to document which files were received together and to link accession and preservation documentation to files. This information is most important for transfer media that was utilized during the course of the creator's work, where the choice for what to put on the disk likely reflects a decision about what belongs together.
 
