@@ -1,0 +1,13 @@
+Collection  Accession   Date    Media Identifier    Action  Staff
+RBRL.100    2022.01.ER  2022-01-01  CD.001  Virus scanned using Microsoft Defender Antivirus. No security threats were detected.    Emmeline Kaser
+RBRL.100    2022.01.ER  2022-01-01  FD3.001 Virus scanned using Microsoft Defender Antivirus. No security threats were detected.    Emmeline Kaser
+RBRL.100    2022.01.ER  2022-01-01  FD3.002 Virus scanned using Microsoft Defender Antivirus. No security threats were detected.    Emmeline Kaser
+RBRL.100    2022.01.ER  2022-01-01  CD.001  Copied to RAID using TeraCopy. No errors were detected. Emmeline Kaser
+RBRL.100    2022.01.ER  2022-01-01  FD3.001 Attempted to copy to RAID using TeraCopy. 6 JPG files failed to copy.   Emmeline Kaser
+RBRL.100    2022.01.ER  2022-01-01  FD3.001 Attempted to copy to RAID only the 6 JPG files that failed to copy the first time. 4 copied successfully while MVC-001L.JPG and MVC-002L.JPG failed to copy a second time. These two files cannot be previewed or opened, indicating that they are likely corrupted and the data is lost.   Emmeline Kaser
+RBRL.100    2022.01.ER  2022-01-01  FD3.002 Copied to RAID using TeraCopy. No errors were detected. Emmeline Kaser
+RBRL.100    2022.01.ER  2022-01-01  FD3.001 All 10 files copied from this floppy disk appear to be corrupted and cannot be opened or previewed. Consulted with [name of collection archivist] and determined based on the media label ("Pug wedding 1997") that they do not have high research value for the collection. As a result, the files from this media were deleted from the accession folder.  Emmeline Kaser
+RBRL.100    2022.01.ER  2022-01-01  CD.001  Bagged with accession 2022.01.ER. No errors were detected.
+RBRL.100    2022.01.ER  2022-01-01  FD3.002 Bagged with accession 2022.01.ER. No errors were detected.
+RBRL.100    2022.01.ER  2022-01-01      Validated bag for accession 2022.01.ER. The bag was valid.
+RBRL.100    2022.01.ER  2022-01-01      Copied bag for accession 2022.01.ER to LTO tape (rbrl-tape-6) using TeraCopy. No errors were detected.
