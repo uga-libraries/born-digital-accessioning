@@ -3,7 +3,7 @@
 
 The following processes were instituted in November 2021. At that time, a new digital archivist role was established to manage born-digital, non-AV collections material for both the Hargrett and Russell libraries. This is a departure from the previous workflow, in which multiple archivists in separate libraries used similar processes to accession only their own library's digital materials. 
 
-These born-digital accessioning processes are now the responsibility of the digital archivist and have been reworked and updated in collaboration with archivists from both libraries. This documentation builds on and updates the prior suite of [accessioning documentation](https://github.com/uga-libraries/born-digital-accessioning) from 2019 to reflect the Libraries' current workflow and technology.
+These born-digital accessioning processes are now the responsibility of the digital archivist and have been reworked and updated in collaboration with archivists from both libraries. This documentation builds on and updates the prior suite of [accessioning documentation](https://github.com/uga-libraries/born-digital-accessioning/tree/main/legacy-docs-2017-2019) from 2019 to reflect the Libraries' current workflow and technology.
 
 ## Overview
 
