@@ -33,6 +33,7 @@ FD3 | 3.5" floppy disk |
 FD5 | 5.25" floppy disk |
 G | G: Drive (SAN) | Legacy designation for files that were copied to the RussLib collection folder on the G: Drive prior to digital accessioning practices being established.
 HD | External hard drive |
+IHD | Internal hard drive | For files copied directly from a computer hard drive
 SR | Scanned by Russell staff | For instances where the Russell Library makes a scan of the original and then returns the original to the donor.
 USB | USB Flash Drive |
 Z | Zip disk |
