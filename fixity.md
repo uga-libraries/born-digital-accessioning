@@ -19,7 +19,7 @@ Bagit Instructions:
 
   `$ bagit.py --md5 /path/to/accession/folder`
 
-Record this step in the [preservation documentation](./preservation-documentation.md).
+Record this step in the [preservation log](./preservation-logn.md).
 
 
 ### 2. Rename the bag directory
@@ -31,8 +31,7 @@ Append "\_bag" to the end of the accession folder name (e.g., harg-ms-281_2017-0
 
 `$ bagit.py --validate /path/to/accession/folder_bag`
 
-Record the results of this step in the [preservation documentation](./preservation-documentation.md).
-
+Record the results of this step in the preservation log.
 
 ### 4. Save the manifest
 

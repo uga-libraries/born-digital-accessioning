@@ -52,4 +52,4 @@ Z | Zip disk |
 
 *   Include at the beginning of the folder title for the files copied from the media.
 
-*   Include in all documentation referring to the accession, including the accession record and [preservation log](./preservation-documentation.md). Ultimately, it should be possible to determine how each group of files with a DMID was handled during processing (i.e. which AIPs include files from a particular accession and if any files were separated).
+*   Include in all documentation referring to the accession, including the accession record and [preservation log](./preservation-log.md). Ultimately, it should be possible to determine how each group of files with a DMID was handled during processing (i.e. which AIPs include files from a particular accession and if any files were separated).

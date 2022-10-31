@@ -50,6 +50,6 @@ Collections with multiple digital accessions will need an additional folder leve
 ## Copy the files to the destination folder.
 6. [Connect the media to the RAID machine](./read-legacy-media.md) using the appropriate write protections and/or drive.
 7. Copy the files to the appropriate folder using [TeraCopy](./teracopy.md).
-8. Record the results of the copying process in the [preservation log](./preservation-documentation.md).
+8. Record the results of the copying process in the [preservation log](./preservation-log.md).
 
 [Fixity information](./fixity.md) should be generated immediately after copying. 

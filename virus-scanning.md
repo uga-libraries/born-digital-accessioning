@@ -35,7 +35,7 @@ All donations received in digital form must be scanned for viruses. Content crea
 
 * This will automatically open the antivirus program and start a scan of the selected directory. 
 
-* When scanning is complete, the Windows Security screen will display "No current threats" or "[#] threats found" and the specific files listed below. Record the results of the scan in the [preservation documentation](./preservation-documentation.md).
+* When scanning is complete, the Windows Security screen will display "No current threats" or "[#] threats found" and the specific files listed below. Record the results of the scan in the [preservation log](./preservation-log.md).
 
 ## 4. Remediate any viruses
 

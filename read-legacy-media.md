@@ -72,7 +72,7 @@ The Digital Archives Processing Area has several USB drives that allow us to con
 9. Click "Capture Disk Image File" and wait for the process to complete.
     * Disk imaging with WinDIB has proven to be a faster and more effective transfer method than copying individual files.
 
-10. Document the results of the copying process in the [preservation log](./preservation-documentation.md), including any read errors.
+10. Document the results of the copying process in the [preservation log](./preservation-log.md), including any read errors.
 
 11. Disk images created by WinDIB often cannot be mounted (no known reason why). But the files can be extracted with no issue using 7-Zip.
     * Right click on the disk image > 7-Zip > "Extract here"
