@@ -4,7 +4,7 @@ The Hargrett and Russell libraries use a collaborative appraisal process for bor
 
 During the initial media appraisal, the digital archivist identifies any media that does not need to be copied. Once the remaining media is transferred, the digital archivist performs a technical appraisal. This includes assessing the materials’ storage demands, format usability, and potential processing needs. A full format report is generated, and files are immediately appraised out if they meet a list of technical criteria. The digital archivist makes note of any anticipated issues related to sensitive information or complex formats that could add significant processing time. 
 
-During the content appraisal phase, the collecting archivist appraises the materials again based on their research value and relevance to the collection. This process is supplemented with the digital archivist's notes from their technical appraisal. Collecting archivists can make and document any dispositions themselves or provide instructions to the digital archivist. 
+During the content appraisal phase, the collecting archivist appraises the materials again based on their research value and relevance to the collection. This process is supplemented with the digital archivist's notes from their technical appraisal. Collecting archivists can make and document disposition information or provide instructions to the digital archivist. 
 
 ## Initial Media Appraisal
 
@@ -38,7 +38,7 @@ Technical appraisal decisions are made by the digital archivist and primarily de
 
 * **Encrypted data:** Data that is password-protected - if the donor cannot provide an unencrypted version, these files will be appraised out
 
-* **Exact duplicates:** Must be by identical checksum information - when in doubt about de-duping, get a second opinion from the collecting archivist
+* **Exact duplicates:** Must be confirmed by identical checksum information - when in doubt about de-duping, get a second opinion from the collecting archivist
 
 * **Temp files:** Small, automatically-generated files designed to improve a program or operating system's performance
 
@@ -46,16 +46,22 @@ Technical appraisal decisions are made by the digital archivist and primarily de
 
 * **Unwanted software:** Programs that are not dependencies for the collection material
 
+### Information gathered during technical appraisal that affects the processing plan
+
+*   Size and complexity of the file system (existing amount of organization and descriptive file naming)
+
+*   Areas with potentially sensitive information
+
+*   Areas that may require manual sampling
+
 ### Process
 
-1. Run the technical-appraisal-logs.py script on the accession folder to generate an initial file manifest
-    * See the script documentation in GitHub for detailed usage instructions
+1. Run the technical-appraisal-logs.py script on the accession folder to generate an initial file manifest (see the script documentation in GitHub for detailed usage instructions)
 
 2. If applicable, delete any obvious files that fall into the categories above - when in doubt, don't delete
     * If a file is a potential dependency (e.g. it may hold important metadata or contribute to another file's functionality), leave it as-is and remove it later if needed
 
-2. Run the format-analysis.py script on the accession folder to generate a full format report
-    * See the script documentation in GitHub for detailed usage instructions
+2. Run the format-analysis.py script on the accession folder to generate a full format report (see the script documentation in GitHub for detailed usage instructions)
 
 3. Investigate the files that the report has flagged for technical appraisal
 
@@ -100,18 +106,9 @@ Technical appraisal is iterative, so steps 2-5 may be repeated multiple times du
     * If there were unintended file changes during appraisal, either restore the accidentally altered files or replicate the deletions on the original copy of the accession. 
     * If there is a low risk of unintended changes, make the appraisal copies the preservation copies and delete the old version.
 
-
-### Information gathered during technical appraisal that affects the processing plan
-
-*   Size and complexity of the file system (existing amount of organization and descriptive file naming)
-
-*   Areas with potentially sensitive information
-
-*   Areas that may require manual sampling
-
 # Documenting Appraisal Decisions
 
-* Document all appraisal decisions in the "Disposition Note" field in the [ArchivesSpace accession record](./accession_record_archivesspace.md). Include a brief description of the media and why it was not kept.
+* Document all substantive appraisal decisions in the "Disposition Note" field in the [ArchivesSpace accession record](./accession_record_archivesspace.md). Include a brief description of why it was not kept.
 
    Examples:
    
@@ -122,3 +119,5 @@ Technical appraisal is iterative, so steps 2-5 may be repeated multiple times du
    * 1 thumb drive labeled "Posters" that donor says duplicate the paper materials.
 
    * 2 commercial DVDs of the movie "Kung Fu Panda" that are unrelated to the collection.
+
+* The deletion log generated by technical-appraisal-logs.py will serve as a granular record of everything that has been removed. This log is stored in the collection folder alongside the other preservation documentation.
