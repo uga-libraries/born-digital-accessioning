@@ -54,15 +54,15 @@ All donations received in digital form must be scanned for viruses. Content crea
 
 ## 4. Document virus remediation actions
 
-* Document all virus scanning results, remediation decisions, and remediation actions in the [preservation documentation](./preservation-documentation.md).
+* Document all virus scanning results, remediation decisions, and remediation actions in the preservation log.
 
-* Viruses should also be recorded in the "Condition Description" field of the [ArchivesSpace accession record](./accession_record_archivesspace.md) with a brief discription of the remediation measures.
+* Viruses should also be recorded in the "Condition Description" field of the ArchivesSpace accession record with a brief discription of the remediation measures.
 
-* Separated media should also be recorded in the "Disposition" field in the [ArchivesSpace accession record](./accession_record_archivesspace.md).
+* Separated media should also be recorded in the "Disposition" field in the ArchivesSpace accession record.
 
 ## 4. Address separated media
 
-* If media has been separated from the accession because of a virus, document this in the "Disposition" field in the [ArchivesSpace accession record](./accession_record_archivesspace.md)
+* If media has been separated from the accession because of a virus, document this in the "Disposition" field in the ArchivesSpace accession record.
 
     * If we have legal rights to the collection, dispose of the media in the manner indicated in the deed of gift. Typically it will be securely destroyed. Occasionally, a donor may request to have unwanted digital media returned to them.
 
