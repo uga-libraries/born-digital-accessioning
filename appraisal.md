@@ -4,9 +4,11 @@ The Hargrett and Russell libraries use a collaborative appraisal process for bor
 
 During the initial media appraisal, the digital archivist identifies any media that does not need to be copied. Once the remaining media is transferred, the digital archivist performs a technical appraisal. This includes assessing the materials’ storage demands, format usability, and potential processing needs. A full format report is generated, and files are immediately appraised out if they meet a list of technical criteria. The digital archivist makes note of any anticipated issues related to sensitive information or complex formats that could add significant processing time. 
 
-During the content appraisal phase, the collecting archivist appraises the materials again based on their research value and relevance to the collection. This process is supplemented with the digital archivist's notes from their technical appraisal. Collecting archivists can make and document disposition information or provide instructions to the digital archivist. 
+During the content appraisal phase, the collecting archivist appraises the materials again based on their research value and relevance to the collection. This process is supplemented with the digital archivist's notes from their technical appraisal. Collecting archivists can make and document disposition decisions or provide instructions to the digital archivist. 
 
-## Initial Media Appraisal
+## Initial Media Appraisal (Optional)
+
+_This level of appraisal is most useful when dealing with large volumes of physical media that appear to be reliably labeled. If there is doubt about the accuracy of the labels, the digital archivist may choose to look at everything._
 
 Use labels and information from the donor to identify media that does not need to be copied. This typically includes labeled software installation disks, other commercial products that are clearly outside the scope of the collection, or media that the donor has identified as a duplicate or accidental inclusion.
 
@@ -14,7 +16,7 @@ Use labels and information from the donor to identify media that does not need t
 
 * Do not assume that unlabeled media are blank unless they are sealed in their original packaging.
 
-* This process can continue as the media are first connected to the quarantine computer for [virus scanning](./virus-scanning.md). If media are discovered to be blank, they can be appraised out prior to assigning a DMID.
+* This process can continue as the media are first connected to the quarantine computer for [virus scanning](./virus-scanning.md). If media are discovered to be blank, they should be appraised out prior to assigning a DMID.
 
 * Files that are retained during media appraisal can still be appraised out later on. 
 
@@ -28,7 +30,7 @@ Information gathered during technical appraisal is helpful for:
 *   Determining the processing tier
 *   Identifying issues that might require follow-up with the donor, e.g. missing or encrypted data 
 
-Format analysis is an important part of this process. The format-analysis.py script uses FITS to identify the formats in an accession and automatically log any files that match our technical appraisal criteria, including temporay files, trashed files, and duplicates. It also identifies each file's format risk based on the Digital Preservation Framework created by the U.S. National Archives and Records Administration (NARA). See the script documentation in GitHub for more information.
+Format analysis is an important part of this process. The format_analysis.py script uses FITS to identify the formats in an accession and automatically log any files that match our technical appraisal criteria, including temporay files, trashed files, and duplicates. It also identifies each file's format risk based on the Digital Preservation Framework created by the U.S. National Archives and Records Administration (NARA). See the [accessioning-scripts repo](https://github.com/uga-libraries/accessioning-scripts) in GitHub for more information.
 
 ### Content removed during technical appraisal
 
@@ -54,14 +56,16 @@ Technical appraisal decisions are made by the digital archivist and primarily de
 
 *   Areas that may require manual sampling
 
+*   Complexity of formats (unusual access requirements and/or reformatting needs)
+
 ### Process
 
-1. Run the technical-appraisal-logs.py script on the accession folder to generate an initial file manifest (see the script documentation in GitHub for detailed usage instructions)
+1. Run the technical-appraisal-logs.py script on the accession folder to generate an initial file manifest (see [script documentation](https://github.com/uga-libraries/accessioning-scripts) for detailed usage instructions)
 
 2. If applicable, delete any obvious files that fall into the categories above - when in doubt, don't delete
     * If a file is a potential dependency (e.g. it may hold important metadata or contribute to another file's functionality), leave it as-is and remove it later if needed
 
-2. Run the format-analysis.py script on the accession folder to generate a full format report (see the script documentation in GitHub for detailed usage instructions)
+2. Run the format-analysis.py script on the accession folder to generate a full format report (see [script documentation](https://github.com/uga-libraries/accessioning-scripts) for detailed usage instructions)
 
 3. Investigate the files that the report has flagged for technical appraisal
 
