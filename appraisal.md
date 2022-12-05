@@ -8,7 +8,7 @@ During the content appraisal phase, the collecting archivist appraises the mater
 
 ## Initial Media Appraisal (Optional)
 
-_This level of appraisal is most useful when dealing with large volumes of physical media that appear to be reliably labeled. If there is doubt about the accuracy of the labels, the digital archivist may choose to look at everything._
+_This level of appraisal is most useful when dealing with large volumes of physical media that appear to be reliably labeled. If there is doubt about the accuracy of the labels, the digital archivist may choose to skip this step and review the contents of all provided media._
 
 Use labels and information from the donor to identify media that does not need to be copied. This typically includes labeled software installation disks, other commercial products that are clearly outside the scope of the collection, or media that the donor has identified as a duplicate or accidental inclusion.
 
