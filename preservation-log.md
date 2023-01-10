@@ -51,9 +51,9 @@ This documentation covers events from acquisition through appraisal.
 
     *   Common sources: transfer media, removable media
 
-    *   Common storage locations: RAID, LTO tape _[number]_
+    *   Common storage locations: Hub, external media (if copying from several smaller media like floppy disks)
 
-    *   Common software: TeraCopy, rsync, Data Accessioner. Include the version number as well.
+    *   Common software: TeraCopy, Microsoft Defender Antivirus. Include the version number as well.
 
 *   Attempted to copy files from _[source]_ to _[location]_ using TeraCopy.  _[describe errors]_
 

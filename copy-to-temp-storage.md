@@ -1,12 +1,10 @@
-# Copying Files to the Windows RAID Machine
+# Copying Files to Temporary Preservation Storage
 
-The Digital Archives Processing area has a Windows computer with a RAID (redundant array of independent disks) storage system. This system has 11 TB capacity and is used as temporary preservation storage for unprocessed collections material. Only a limited number of staff have access to this machine.
-
-New digital accessions should be copied to the RAID (F: drive) after they have undergone [preliminary appraisal](./appraisal.md) and [virus scanning](./virus-scanning.md).
+New digital accessions should be copied to the Digital Production Hub after they have undergone [preliminary appraisal](./appraisal.md) and [virus scanning](./virus-scanning.md). Accessions will remain on the Hub until they are processed and ingested. 
 
 ## Create a destination folder for the accession
-1. Navigate to the appropriate library's folder on the F: drive. 
-2. Create a new folder with the collection number (if one does not already exist).
+1. Navigate to the appropriate library's Hub share. Open the folder for born-digital archival material. 
+2. Create a new folder with the collection number if one does not already exist.
 3. Inside the (new or existing) collection folder, create a folder with the accession number.
 4. If there are multiple digital accessions for this collection, create one more folder with the accession number inside the accession folder.
     * This folder will hold the actual collection materials and will be turned into a bag and renamed.
@@ -20,6 +18,7 @@ Collections with multiple digital accessions will need an additional folder leve
    * __2022-01-er__
       * preservation_log.txt
       * bag_manifest-md5.txt
+      * initialmanifest_20221219.csv
       * __2022-01-er_bag__
          * data
             * cd-001_Photos
@@ -30,6 +29,7 @@ Collections with multiple digital accessions will need an additional folder leve
    * __2022-02-er__
       * preservation_log.txt
       * bag_manifest-md5.txt
+      * initialmanifest_20220830.csv
       * __2022-02-er_bag__
          * data
             * hd-001_Email2012
@@ -41,6 +41,7 @@ Collections with multiple digital accessions will need an additional folder leve
 * __rbrl101__
    * preservation_log.txt
    * bag_manifest-md5.txt
+   * initialmanifest_20230108.csv
    * __2022-03-er_bag__
       * data
       *  f-001_PressReleases
@@ -48,8 +49,7 @@ Collections with multiple digital accessions will need an additional folder leve
          *  002.docx
          
 ## Copy the files to the destination folder.
-6. [Connect the media to the RAID machine](./read-legacy-media.md) using the appropriate write protections and/or drive.
-7. Copy the files to the appropriate folder using [TeraCopy](./teracopy.md).
+6. After virus scanning, [connect the media to a workstation](./read-legacy-media.md) that is mapped to the Digital Production Hub. Use the appropriate write protections and/or drive.
+7. Copy the files to the appropriate folder on the Hub using [TeraCopy](./teracopy.md).
 8. Record the results of the copying process in the [preservation log](./preservation-log.md).
-
-[Fixity information](./fixity.md) should be generated immediately after copying. 
+9. Immediately run the technical-appraisal-logs.py script to generate an intial file manifest with [checksums](./fixity.md)

@@ -49,7 +49,7 @@ The goals of this workflow:
 
 6. Start an [ArchivesSpace accession record](./accession_record_archivesspace.md). Document any preliminary appraisal decisions and any separation notes provided by the processor. 
 
-7. Use [TeraCopy](./teracopy.md) to copy files from the media to the [Windows RAID machine](./copy-to-raid.md).
+7. Use [TeraCopy](./teracopy.md) to copy files from the media to the Digital Production Hub.
 
 8. For media with extensive and useful label information, [transcribe label text](./media-labels.md) into a CSV.
 
@@ -109,3 +109,5 @@ The first born-digital accessioning workflow was adapted from the Russell Librar
 The initial version of this workflow was written in April 2022 by Emmeline Kaser (Digital Archivist, Digital Stewardship) and represents the processes in place from November 2021-May 2022. It was adapted from the 2019 revision of the prior workflow and reuses some sections wholesale, as noted.
 
 The workflow was revised in October 2022 to include the collaborative appraisal and format analysis processes. Collaborative appraisal was introduced to the workflow in May 2022 and format analysis was introduced in June 2022.
+
+The workflow was revised in January 2023 to reflect changes in the Libraries' temporary preservation storage options. 

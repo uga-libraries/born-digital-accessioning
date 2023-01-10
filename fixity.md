@@ -1,6 +1,8 @@
 # Fixity
 
-A file manifest should be created for each born-digital accession at the point of accessioning. At a minimum, this manifest needs to include file paths and fixity information for every file in the accession. The current method for generating fixity information uses **bagit.py**. This creates a "bag" for each accession with an MD5 manifest text file inside. Bags are also easy to validate using bagit's command line program.
+A file manifest should be created for each born-digital accession at the point of accessioning. After an accession is copied into the Libraries' storage systems, use [technical-appraisal-logs.py](https://github.com/uga-libraries/accessioning-scripts/blob/main/technical-appraisal-logs.py) to generate an initial file manifest of all the files and their checksum information. 
+
+The current workflow also generates fixity information using **bagit.py**. This creates a "bag" for each accession with an MD5 manifest text file inside that is quick and easy to validate using bagit's command line program.
 
 Below are instructions for creating and validating bags, as well as instructions for validating fixity information from checksum manifests created by other utilities. 
 

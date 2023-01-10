@@ -22,7 +22,7 @@ The Digital Archives Processing Area has several USB drives that allow us to con
 
 * Floppy disks can be virus-scanned while they're in the drive.
 
-* This media can be slow to copy. For large collections of 3.5" floppy disks, it may save time to copy the files to a piece of removable media immediately after virus scanning. That way, there is only a single copying process from the storage media to the [RAID machine](./copy-to-raid.md) and no need to re-read each individual disk.
+* This media can be slow to copy. For large collections of 3.5" floppy disks, it may save time to copy the files to a piece of removable media immediately after virus scanning. That way, there is only a single copying process from the storage media to the [libraries' storage systems](./copy-to-temp-storage.md) and no need to re-read each individual disk.
 
 ## 5.25" floppy disks
 
