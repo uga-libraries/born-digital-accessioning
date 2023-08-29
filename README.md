@@ -7,7 +7,7 @@ These born-digital accessioning processes are now the responsibility of the digi
 
 ## Overview
 
-Accessioning is the process of transferring and documenting the transfer of collections material into the Libraries' care. For born-digital materials, that means safely copying them into the Libraries' temporary storage system and documentating the process. Digital files should be accessioned on receipt whenever possible. 
+Accessioning is the process of transferring and documenting the transfer of collections material into the Libraries' care. For born-digital materials, that means safely copying them into the Libraries' temporary storage system and documentating the process. Digital files should be accessioned within four months of receipt. 
 
 This documentation references Python scripts in the accessioning-scripts repository in the UGA Libraries GitHub.
 
@@ -21,19 +21,21 @@ The goals of this workflow:
 
 3. Safely copy all digital files to temporary preservation storage.
 
-4. Identify and appraise out any trashed or temporary files and unwanted software.
+4. Verify the integrity of the copied files and generate baseline fixity information.
 
-5. Verify the integrity of the copied files and generate baseline fixity information.
+5. Generate a report of file formats.
+   
+6. Perform technical appraisal on the accession.
 
-6. Generate an initial report of file formats.
+7. Document all decisions and actions performed on the accession.
 
-7. Create appropriate backups of the copied files.
+8. Create an ArchivesSpace accession record.
 
-8. Document all decisions and actions performed on an accession.
+_Once all accessions have been received:_
 
-9. Create an ArchivesSpace accession record.
-
-10. Propose an initial processing plan.
+10. Appraise the content of the collection.
+    
+11. Propose an initial processing plan.
 
 ## Procedure Overview
 
@@ -57,7 +59,7 @@ The goals of this workflow:
 
 10. Generate a preliminary [format report](./appraisal.md#technical-appraisal-and-format-analysis) to assess initial risk and possible reformatting needs.
 
-11. [Appraise out](./appraisal.md#technical-appraisal-and-format-analysis) any trashed or temporary files, unwanted software, and application data that is outside the collection's scope.
+11. [Appraise out](./appraisal.md#technical-appraisal-and-format-analysis) any trashed or temporary files, unwanted software, and application data that is outside the collection's scope (technical appraisal).
 
 12. Bag the accession to generate verifiable [fixity information](./fixity.md).
 
@@ -78,7 +80,7 @@ The goals of this workflow:
 
 ## Documentation Overview
 
-The ArchivesSpace accession record provides a high-level overview of the accession materials, including their content and physical properties, and the accessioning process, including data recovery problems and major decisions related to appraisal and virus mitigation. This record is supplemented by additional preservation documentation saved in the accession folder.
+The ArchivesSpace accession record provides a high-level overview of the accessioned materials, including their content and physical properties, and the accessioning process, including data recovery problems and major decisions related to appraisal and virus mitigation. This record is supplemented by additional preservation documentation saved in the accession folder.
 
 ### Script-generated documentation:
 
