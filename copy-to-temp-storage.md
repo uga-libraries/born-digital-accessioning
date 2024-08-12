@@ -6,7 +6,7 @@ New digital accessions should be copied to the Digital Production Hub after they
 1. Navigate to the appropriate library's Hub share. Open the folder for born-digital archival material. 
 2. Create a new folder with the collection number if one does not already exist.
 3. Inside the (new or existing) collection folder, create a folder with the accession number.
-4. If there are multiple digital accessions for this collection, create one more folder with the accession number inside the accession folder.
+4. Create one more folder with the accession number inside the accession folder.
     * This folder will hold the actual collection materials and will be turned into a bag and renamed.
 5. If there are multiple pieces of media in the accession, you will need to make an additional folders within the "bag" folder. Label each one with a DMID and any written information from the media's label.
     * Abbreviate the label information as needed to prevent the folder title from getting too long.
