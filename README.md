@@ -65,18 +65,16 @@ _Once all accessions have been received:_
 
 13. Complete the accession record in ArchivesSpace.
 
-14. Use TeraCopy to create a backup copy of the accession on LTO tape.
+14. If no further accessions are expected for the collection, assign an initial processing tier for the collection. Otherwise, wait until all materials have been accessioned.
 
-15. If no further accessions are expected for the collection, assign an initial processing tier for the collection. Otherwise, wait until all materials have been accessioned.
+15. Create an [appraisal copy](./appraisal.md#process) of each accession and notify the collecting archivist that the collection is ready for content appraisal. Repeat technical and content appraisal as needed.
 
-16. Create an [appraisal copy](./appraisal.md#process) of each accession and notify the collecting archivist that the collection is ready for content appraisal. Repeat technical and content appraisal as needed.
-
-17. If additional materials are appraised out, update the bag along with all relevant logs and reports:
+16. If additional materials are appraised out, update the bag along with all relevant logs and reports:
   * Deletion logs
   * Accession records
   * Format reports (only if the collection will need its formats monitored outside of the digital preservation system)
 
-18. If necessary, update the assigned processing tier.
+17. If necessary, update the assigned processing tier.
 
 ## Documentation Overview
 
